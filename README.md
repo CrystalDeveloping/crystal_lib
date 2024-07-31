@@ -3,7 +3,8 @@ crystal_lib
 
 # EXPORT
 
-`exports['crystal_lib']:CRYSTAL().gridsystem({ 
+`
+exports['crystal_lib']:CRYSTAL().gridsystem({ 
    pos = vector3(0,0,0), -- posizione del marker
    rot = vector3(90.0, 90.0, 90.0), -- rotazione del marker
    scale = vector3(0.8, 0.8, 0.8), -- grandezza del marker
@@ -17,7 +18,8 @@ crystal_lib
    action = function () -- funzione da eseguire se premuto il tasto settato
        print('ciao')
    end
-})`
+})
+`
 
 # DIPENDENZE
 
